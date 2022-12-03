@@ -1,0 +1,29 @@
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/bg_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-title {
+    color: white;
+    text-align: center;
+}
+
+.main-search {
+    display: flex;
+    align-content: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.card {
+    margin: 30px;
+}
