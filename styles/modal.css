@@ -1,0 +1,124 @@
+.blue {
+    background-color: #3FC4FD;
+}
+
+.cardmodal {
+    display: flex;
+    width: 1033px;
+    height: 722px;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    color: white;
+}
+
+.cardmodal-desc {
+    padding-bottom: 5px;
+}
+
+.cardmodal-inputs {
+    margin: 37px 27px 38px 32px;
+}
+
+.input-name {
+    width: 446px;
+    margin-bottom: 32px;
+}
+
+.input-tag {
+    width: 446px;
+    margin-bottom: 41px;
+}
+
+.cardmodal-select {
+    margin-bottom: 30px;
+}
+
+.cardmodal-textarea {
+    width: 457px;
+    margin-bottom: 16px;
+}
+
+.cardmodal-pickers {
+    display: flex;
+}
+
+.cardmodal-upload {
+    width: 187px;
+    height: 211px;
+    border: 1px solid blue;
+    margin-right: 33px;
+    margin-bottom: 8px;
+}
+
+.upload-button {
+    margin: 176px 10px 10px 35px;
+}
+
+.cardmodal-colors {
+    font-weight: 400;
+    font-size: 14px;
+    overflow-wrap: break-word;
+}
+
+.colors-item {
+    margin-bottom: 7px;
+}
+
+.inputs-button {
+    width: 85px;
+    height: 30px;
+    margin-right: 18px;
+}
+
+.cardmodal-preview {
+    margin: 26px 29px 38px 29px;
+}
+
+.preview-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 104px;
+}
+
+.preview-views {
+    display: flex;
+}
+
+.view-item {
+    margin-right: 9px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.inactive {
+    color: grey;
+}
+
+.preview-area {
+    width: 457px;
+    height: 297px;
+    background-image: url(../images/hero1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 19px;
+}
+
+.preview-slider {
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-left: 199px;
+}
+
+.slider-item {
+    display: flex;
+    opacity: 1;
+    margin: 15px;
+}
+
+.preview-button {
+    width: 122px;
+    height: 55px;
+    margin-left: 335px;
+}

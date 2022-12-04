@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="./styles/modal.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+</head>
+
+<body style="background-color:black">
+
+    <div class="cardmodal">
+        <div class="cardmodal-inputs">
+            <p class="cardmodal-desc">Add name</p>
+            <input class="input-name" type="text">
+            <div class="cardmodal-select">
+                <select>
+                    <option selected disabled>Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <select>
+                    <option selected disabled>Race</option>
+                    <option>Twilek</option>
+                    <option>Zabrak</option>
+                </select>
+
+                <select>
+                    <option selected disabled>Side</option>
+                    <option>Dark</option>
+                    <option>Light</option>
+                </select>
+            </div>
+            <p class="cardmodal-desc">Add description</p>
+            <p class="cardmodal-textarea"><textarea name="text" id="" cols="54" rows="6"></textarea></p>
+
+            <p class="cardmodal-desc">Add tag</p>
+            <input class="input-tag" type="text">
+
+            <div class="cardmodal-pickers">
+
+                <div class="cardmodal-upload">
+
+                    <button class="upload-button">Upload by URL</button>
+                </div>
+
+                <div class="cardmodal-colors">
+                    <div class="colors-item">
+                        <input type="color" id="head" name="head" value="black">
+                        <label for="head">Name color</label>
+                    </div>
+
+                    <div class="colors-item">
+                        <input type="color" id="body" name="body" value="black">
+                        <label for="body">Background color</label>
+                    </div>
+
+                    <div class="colors-item">
+                        <input type="color" id="body" name="body" value="#cccccc">
+                        <label for="body">Color of parameters</label>
+                    </div>
+                </div>
+
+            </div>
+            <button class="inputs-button blue">Cancel</button>
+            <button class="inputs-button">Create</button>
+        </div>
+
+        <img src="./images/Rectangle.svg" alt="Rectangle line">
+
+        <div class="cardmodal-preview">
+            <div class="preview-head">
+                <p>Preview</p>
+                <a href=""><img src="./images/close.svg" alt="Close button"></a>
+            </div>
+
+            <div class="preview-views">
+                <p class="view-item" id="wide" onclick="viewWide()">View 1</p>
+                <p class="view-item inactive" id="narrow" onclick="viewNarrow()">View 2</p>
+            </div>
+            <div class="preview-area" id="area"></div>
+
+            <div class="preview-slider">
+                <a href="#" onclick="prevItem()"><img src="./images/prev.svg" alt="Previous image"></a>
+                <img class="slider-item" id="active" src="./images/slider-active.svg" alt="Active item">
+                <img class="slider-item" id="inactive" src="./images/slider-inactive.svg" alt="Inactive item">
+                <a href="#" onclick="nextItem()"><img src="./images/next.svg" alt="Next image"></a>
+            </div>
+
+            <button class="preview-button blue">Save</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -27,3 +27,70 @@
 .card {
     margin: 30px;
 }
+
+/* .cardmodal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    padding: 30px 0;
+}
+
+.cardmodal__window {
+    background: #fff;
+    width: 1020px;
+    max-width: 100%;
+transition: transform 0.15s ease 0s,
+opacity 0.15s ease 0s;
+transform: scale(1);
+}
+
+.cardmodal--active {
+    visibility: visible;
+}
+
+.cardmodal--active .cardmodal__window {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.cardmodal__shadow {
+    position: fixed;
+    border: none;
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 98;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    background-color: black;
+
+}
+
+.cardmodal__shadow--show {
+    pointer-events: auto;
+    opacity: 0.6;
+}
+
+.cardmodal__opened {
+    position: fixed;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+*/
